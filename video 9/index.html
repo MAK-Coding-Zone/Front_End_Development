@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body{
+            background-color: #808080;
+        }
+    </style>
+</head>
+<body>
+    <h1>Forms</h1>
+
+    <form action="" method="">
+
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" placeholder="Name" name="fname">
+<br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" placeholder="Name" name="fname" required>
+        
+        <br>
+        <label for="pass">Password:</label>
+        <input type="password" name="pass" id="pass" required maxlength="8">
+
+        <br>
+        <input type="button" value="Submit">
+        <br>
+        <input type="reset" value="Reset">
+        <br>
+        <label for="email">Enter Email:</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="Phone">Phone no.</label>
+        <input type="phone" name="phone" id="phone" maxlength="11">
+        <br>
+        <label for="date">date</label>
+        <input type="date" name="date" id="date">
+        <br>
+        <label for="number">number</label>
+        <input type="number" name="number" id="number" min="0"max="10">
+        <br>
+        Gender:
+        <label for="male">Male</label>
+        <input type="radio" name="gender">
+        <label for="female">female</label>
+        <input type="radio" name="gender">
+        <br>
+        game:
+        <input type="checkbox" name="" id="" checked>Cricket
+        <input type="checkbox" name="" id="">football
+        <input type="checkbox" name="" id="">chess
+        <input type="checkbox" name="" id="" disabled>ludo
+        <br>
+        <select name="" id="">
+            <option value="Pakistan">Pakistan</option>
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="Iran">Iran</option>
+            <option value="Turkey">Turkey</option>
+        </select>
+
+        <br>
+        <input type="week" name="" id="">
+        <input type="hidden" name="">
+        <input type="time" name="" id="">
+        
+        
+
+
+    </form>
+</body>
+</html>
